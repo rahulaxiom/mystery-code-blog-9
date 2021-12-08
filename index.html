@@ -162,7 +162,7 @@
                     </div>
                     <div class="skill mb-4">
                         <div class="d-flex justify-content-between">
-                            <h6 class="font-weight-bold">Aurduino Programming</h6>
+                            <h6 class="font-weight-bold">Arduino Programming</h6>
                             <h6 class="font-weight-bold">95%</h6>
                         </div>
                         <div class="progress">
@@ -482,7 +482,7 @@
                         <img class="img-fluid rounded w-100" src="./img/IMG_1856.jpg" alt="" >
                         <div class="portfolio-btn bg-primary d-flex align-items-center justify-content-center">
                             <a href="/img/IMG_1856.jpg" data-lightbox="portfolio">
-                                <i class="fa fa-plus text-white" style="font-size: 4px;">This photo depicts some info.</i>
+                                <i class="fa fa-plus text-white" style="font-size: 15px;">This photo depicts some info.</i>
                             </a>
                         </div>
                     </div>
@@ -591,6 +591,27 @@
         </div>
     </div>
     <!-- Contact End -->
+    <form name="contact" method="POST" data-netlify="true">
+        <p>
+          <label>Your Name: <input type="text" name="name" /></label>   
+        </p>
+        <p>
+          <label>Your Email: <input type="email" name="email" /></label>
+        </p>
+        <p>
+          <label>Your Role: <select name="role[]" multiple>
+            <option value="leader">Leader</option>
+            <option value="follower">Follower</option>
+          </select></label>
+        </p>
+        <p>
+          <label>Message: <textarea name="message"></textarea></label>
+        </p>
+        <p>
+          <button type="submit">Send</button>
+        </p>
+      </form>
+      
 
 
     <!-- Footer Start -->
