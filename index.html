@@ -9,7 +9,8 @@
     <meta content="Free HTML Templates" name="description">
 
     <!-- Favicon -->
-    <link href="./img/pi.png" rel="icon">
+    
+    <link href="./img/gracious.svg" rel="icon">
 
     <!-- Google Web Fonts -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -556,11 +557,12 @@
                 <div class="col-lg-8">
                     <div class="contact-form text-center">
                         <div id="success"></div>
-                        <form name="sentMessage" id="contactForm" novalidate="novalidate">
+                        <form name="contact" method="POST" data-netlify="true">
                             <div class="form-row">
                                 <div class="control-group col-sm-6">
                                     <input type="text" class="form-control p-4" id="name" placeholder="Your Name"
                                         required="required" data-validation-required-message="Please enter your name" />
+                                        <label>Your Name: <input type="text" name="name" /></label>   
                                     <p class="help-block text-danger"></p>
                                 </div>
                                 <div class="control-group col-sm-6">
@@ -591,19 +593,14 @@
         </div>
     </div>
     <!-- Contact End -->
-    <form name="contact" method="POST" data-netlify="true">
+    
   <p>
     <label>Your Name: <input type="text" name="name" /></label>   
   </p>
   <p>
     <label>Your Email: <input type="email" name="email" /></label>
   </p>
-  <p>
-    <label>Your Role: <select name="role[]" multiple>
-      <option value="leader">Leader</option>
-      <option value="follower">Follower</option>
-    </select></label>
-  </p>
+
   <p>
     <label>Message: <textarea name="message"></textarea></label>
   </p>
