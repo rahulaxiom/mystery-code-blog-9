@@ -261,7 +261,7 @@ h1,h2,h3,h4,h5,h6,p{
 }
 
 .back-to-top {
-  position: fixed;
+  position: 0px;
   display: none;
   width: 30px;
   text-align: center;
