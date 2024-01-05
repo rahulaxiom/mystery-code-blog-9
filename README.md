@@ -1,2 +1,2 @@
 # Rahul-web
-this is my portfolio, I haven't updated it for a while now.
+This is my portfolio, major updates on the way.
